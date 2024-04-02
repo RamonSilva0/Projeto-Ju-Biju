@@ -41,8 +41,12 @@ main{
     padding: 7px;
     margin-left: 4px;
     cursor: pointer;
-    color: #7a6d8f;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.493);
+}
+
+menu > ul > li > a{
+    color: #7a6d8f;
+    text-decoration: none;
 }
 
 #menu > ul > li:hover{
