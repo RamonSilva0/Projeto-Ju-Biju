@@ -1,14 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    font-family: 
+    font-family: "Cantata One", serif;
 }
-
+    
 body, html{
-    width: 100vw;
+    width:  96vw;
     height: 100vh;
     background-color: #F0E6EF;
 }
@@ -19,29 +19,47 @@ div#cabeçalho{
     width: 100%;
     background-size: cover;
     background-position: center center;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
+}
+
+header > h1{
+    display:none
 }
 
 main > p{
     text-indent: 15px;
     padding: 15px;
     text-align: justify;
+    font-size: 16px;
 }
 
 main{
     height: 571px;
 }
 
+i#burguer{
+    display: block;
+    text-align: center;    
+    background-color: #b09dd1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: #aaa3a9;
+}
+
 #menu > ul > li{
     list-style-type: none;
-    display: inline-block;
+    
     border: 2px solid #695e7c;
     border-radius: 5px;
     padding: 7px;
     margin-left: 4px;
     cursor: pointer;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.493);
+    dis
 }
 
 menu > ul > li > a{

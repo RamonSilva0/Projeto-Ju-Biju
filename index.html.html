@@ -6,12 +6,15 @@
     <title>Ju Biju</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/principal.css">
-
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
+         <h1>JU BIJU</h1>
          <div id="cabeçalho">
          </div>
+         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
          <menu id="menu">
             <ul>
                 <li><a href="pagina-principal.html">Home</a></li>
@@ -28,6 +31,23 @@
             A loja tem como objetivo resolver o problema de pessoas que querem acessórios diferentes como os que vemos no pinterest mas não conseguem encontrar em nenhuma loja. Cada peça é produzida com muito carinho e dedicação para que seus clientes se sintam bem usando os acessórios que foram produzidos pela suas próprias mãos.
         </p>
     </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 769){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            }else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
     <footer>
         <p><a href="https://www.instagram.com/ju.bi.ju_acessorios?igsh=MXRyejR5aDI2aHdvYw==" target="_blank">Ju Biju Acessórios</a></p>
     </footer>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'facil' ;
+    src: url('Bohemian Soul.otf') format('opentype');
+}
+
+@media screen and (min-width: 600px), (max-width:769px) {
+    main{
+
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    div#cabeçalho{
+        background-image: url(../imagens/ju.webp);
+        width: 100vw;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    header > h1{
+        display:block;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 50%;
+        margin-top: 100px;
+        font-size: 100px;
+        font-family: 'facil', Arial, Helvetica, sans-serif;
+        transform: translate(-50%, -50%)
+    }
+
+    #menu{
+        display: inline-block;
+        width: 105px;
+    }
+
+    main{
+        width: 600px;
+        display: block;
+        margin: auto;
+        background-color: white;
+    }
+
+    i#burguer{
+        display: none;
+    }
+}
