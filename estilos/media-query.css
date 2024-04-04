@@ -27,16 +27,29 @@
     }
 
     #menu{
+        display: block;
+        text-align: center;   
+    }
+
+    #menu > ul > li{
         display: inline-block;
-        width: 105px;
-        margin-bottom: 5px;
+        margin-left: auto;
     }
 
     main{
         width: 700px;
-        display: block;
+        height: 600px;
         margin: auto;
         background-color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-bottom: 7px;
+        background-image: url(../imagens/fundo-ju.jpeg);
+        padding: 4px;
+    }
+
+    main > p{
+        line-height: 40px;
     }
 
     i#burguer{

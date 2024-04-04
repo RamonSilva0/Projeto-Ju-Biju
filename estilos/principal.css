@@ -56,7 +56,6 @@ menu{
 
 #menu > ul > li{
     list-style-type: none;
-    
     border: 2px solid #695e7c;
     border-radius: 5px;
     padding: 7px;
@@ -83,7 +82,6 @@ footer{
     padding: 5px;
     font-size: 1.2em;
     text-align: center;
-   
 }
 
 footer a{
