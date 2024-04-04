@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    max-width: 100%;
+}
+
+h1{
+    font-family:"Playfair Display", serif;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: #85759c;
+    font-size: 2.5em;
+}
+
+.fotos > img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left:auto;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%);
+}
+
+#voltar{
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #695e7c;
+    border-radius: 6px;
+    padding: 7px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+#voltar > a{
+    text-decoration: none;
+    color: #7a6d8f;
+}
+
+#voltar:hover{
+    background-color: #7a6d8f48;
+}

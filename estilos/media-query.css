@@ -7,6 +7,10 @@
         width: 99vw;
     }
 
+    html{
+        max-width: 100%;
+    }
+
     div#cabeçalho{
         background-image: url(../imagens/ju.webp);
         margin-bottom: 10px;
@@ -23,6 +27,7 @@
         font-weight: 700;
         letter-spacing: 15px;
         color: #4c445a;
+        text-shadow: 1px 1px 10px rgba(19, 19, 19, 0.589);
         transform: translate(-50%, -50%)
     }
 

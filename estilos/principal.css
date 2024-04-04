@@ -82,6 +82,7 @@ footer{
     padding: 5px;
     font-size: 1.2em;
     text-align: center;
+    
 }
 
 footer a{
@@ -89,4 +90,16 @@ footer a{
     text-decoration: none;
     text-align: center;
     font: bolder;
+}
+
+footer a:hover{
+    color: rgb(196, 192, 192);
+}
+
+footer > span{
+    color: white;
+    position: absolute;
+    margin-left: 91px;
+    transform: translateX(-91);
+    cursor: pointer;
 }
