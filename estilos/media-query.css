@@ -1,25 +1,14 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'facil' ;
-    src: url('Bohemian Soul.otf') format('opentype');
-}
-
-@media screen and (min-width: 600px), (max-width:769px) {
-    main{
-
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @media screen and (min-width: 993px) {
     body{
         height: 100vh;
-        width: 100vw;
+        width: 99vw;
     }
 
     div#cabeçalho{
         background-image: url(../imagens/ju.webp);
-        width: 100vw;
-        background-size: cover;
         margin-bottom: 10px;
     }
 
@@ -30,13 +19,17 @@
         margin-top: 50%;
         margin-top: 100px;
         font-size: 100px;
-        font-family: 'facil', Arial, Helvetica, sans-serif;
+        font-family:"Playfair Display", serif;
+        font-weight: 700;
+        letter-spacing: 15px;
+        color: #4c445a;
         transform: translate(-50%, -50%)
     }
 
     #menu{
         display: inline-block;
         width: 105px;
+        margin-left: 50px;
     }
 
     main{
@@ -48,5 +41,9 @@
 
     i#burguer{
         display: none;
+    }
+
+    footer{
+        width: ;
     }
 }
