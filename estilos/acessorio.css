@@ -17,15 +17,18 @@ h1{
     margin-bottom: 20px;
     color: #85759c;
     font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
 }
 
 .fotos > img{
+    display: block;
     height: 300px;
     width: 300px;
     padding: 10px;
     margin-left:auto;
     margin-left: 50%;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
     transform: translate(-50%);
 }
 
