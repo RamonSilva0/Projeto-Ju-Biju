@@ -20,16 +20,22 @@ h1{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
 }
 
+div.fotos{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .fotos > img{
-    display: block;
     height: 300px;
     width: 300px;
     padding: 10px;
-    margin-left:auto;
-    margin-left: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
-    transform: translate(-50%);
+}
+
+img{
+    align-content: center;
 }
 
 #voltar{
